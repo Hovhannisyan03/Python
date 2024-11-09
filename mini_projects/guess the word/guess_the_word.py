@@ -6,10 +6,9 @@ some_words = '''Yerevan NewYork Tokyo London Paris Berlin Sydney Cairo Rome Madr
 
 # create a list using split
 some_words = some_words.split(' ')
-print(some_words)
+
 # randomly choose a secret word from our "some_words"
 word = random.choice(some_words)
-print(word)
 
 # start game
 print('Guess the word! HINT: word is a name of a city')
